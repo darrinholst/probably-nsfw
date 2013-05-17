@@ -3,7 +3,7 @@
 Hides all images in hipchat and allows you to click to view them because they're
 all probably NSFW.
 
-Get it in the [chrome store](https://chrome.google.com/webstore/detail/hipchat-auto-dismiss-noti/nmindifmgoccchgnkojbjoppdpcdblim)
+Get it in the [chrome store](https://chrome.google.com/webstore/detail/probably-nsfw/pgnmmigcfgdhbihknahccdlmgbpihgia)
 
 ## Copyright
 
