@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Probably NSFW",
+  "version": "1.0.0",
+  "description": "Hides images in hipchat and allows you to click to view.",
+  "permissions": [
+    "https://*.hipchat.com/"
+  ],
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": ["https://*.hipchat.com/chat"],
+      "css": ["css/probably-nsfw.css"],
+      "js": [
+        "javascripts/jquery.js",
+        "javascripts/probably-nsfw.js"
+      ]
+    }
+  ]
+}
+
